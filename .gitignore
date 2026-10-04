@@ -1,0 +1,87 @@
+# ─────────────────────────────
+# Dependencies
+# ─────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/
+.npm/
+
+# ─────────────────────────────
+# Environment variables / secrets
+# (the .env.example templates stay committed)
+# ─────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ─────────────────────────────
+# Build output
+# ─────────────────────────────
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+*.local
+
+# ─────────────────────────────
+# Uploaded media (user content, not source code)
+# ─────────────────────────────
+server/uploads/*
+!server/uploads/.gitkeep
+
+# ─────────────────────────────
+# Logs
+# ─────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─────────────────────────────
+# Test and coverage
+# ─────────────────────────────
+coverage/
+.nyc_output/
+
+# ─────────────────────────────
+# Caches
+# ─────────────────────────────
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# ─────────────────────────────
+# Deployment tooling
+# ─────────────────────────────
+.vercel
+.netlify
+
+# ─────────────────────────────
+# Editors and IDEs
+# ─────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+
+# ─────────────────────────────
+# OS files
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─────────────────────────────
+# Temporary files
+# ─────────────────────────────
+*.tmp
+*.bak
+tmp/
+temp/
